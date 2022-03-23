@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Basic In-Class Assignment</title>
+    <script>
+        var name = "";
+    function taskOne() {
+        name = window.prompt("What is your name?");
+        alert(name);
+    }
+    function taskTwo() {
+        var headerOne = window.prompt("What should be the header be " + name + "?");
+        var headerOneElement = document.createElement("H1");
+        var headerOneTextNode = document.createTextNode(headerOne);
+        headerOneElement.appendChild(headerOneTextNode);
+        
+        document.body.appendChild(headerOneElement);
+    }
+    count = [];
+    function taskThree() {
+        alert("Please enter 6 numbers");
+        for (let i=0; i < 6; i++) {
+        var number = Number(prompt("Please enter your number."));
+        count[i] = number;
+        }
+        alert(count[5] + "" +  count[4] + "" + count[3] + "" + count[2] + "" + count[1] + "" + count[0]);
+    }
+    function taskFour() {
+        let sentinal = false;
+        
+
+
+        var field1 = document.getElementById("input1").value;
+                console.log(field1);
+        var field2 = document.getElementById("input2").value;
+                console.log(field2);
+        var field3 = document.getElementById("input3").value; 
+                console.log(field3);
+
+        
+        let field = [field1, field2, field3];
+
+        for(i=0;i<field.length;i++) {
+            if(!field[i] || field[i].lenght){
+                alert("field" + (parseInt([i])+1) + " is empty, please enter a value")
+                sentinal = false;
+                break;
+            }
+            else {
+                alert(field[i] + " has a valid value")
+                sentinal = true;
+            }
+        }
+
+        if (sentinal = true) {
+            document.getElementById("input1").value = field[1];
+            document.getElementById("input2").value = field[2];
+            document.getElementById("input3").value = field[0];
+        }
+    }
+
+    function taskThreeCredit() {
+    alert("I will now ensure that your values are correct");
+    for (let i = 0; i < count.length; i++) {
+        if (count[i] == isNaN) {
+            alert(count[i] + " was not a number:[");
+        }
+        else if (typeof count[i] == "number") {
+            alert(count[i] + " is a number");
+        }
+    }
+    }
+
+    </script>
+</head>
+<body>
+    <script>
+       taskOne();
+       taskTwo();
+       taskThree();
+    </script>
+
+    <input type="Text" placeholder="Input Content" id="input1"> <br>
+    <input type="Text" placeholder="Input Content" id="input2"> <br>
+    <input type="Text" placeholder="Input Content" id="input3"> <br>
+    <button onclick="taskFour()" id="inputConfirm">Press this to confirm all inputs</button><br>
+
+    <button onclick="taskThreeCredit()" id="numberConfirm">Press this to list numbers</button>
+    <br>
+</body>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars = "vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonInputMoment"
+        android:layout_width="194dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:text="Add Initial Item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userInputMoment" />
+
+    <EditText
+        android:id="@+id/userInputMoment"
+        android:layout_width="291dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Item Name Here"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/outputView"
+        android:layout_width="339dp"
+        android:layout_height="512dp"
+        android:layout_marginTop="24dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/buttonInputMoment"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/buttonInputMoment"
+        app:layout_constraintTop_toBottomOf="@+id/buttonInputMoment" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

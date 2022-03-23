@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <title>Test Practice</title>
+    <meta charset="uft-8">
+    <script src="testPractice.js"></script>
+</head>
+
+<body>
+    <h1>Please Welcome Yourself to Our Test</h1>
+    <br>
+    <h3>Please Select Your Favorite Fonts</h3>
+    <p>
+        <input type="checkbox" id="choice1" name="choice1" value="Times New Roman">
+        <label for="choice1">Times New Roman</label><br>
+        <input type="checkbox" id="choice2" name="choice2" value="Sans-Serif">
+        <label for="choice2">Sans-Serif</label><br>
+        <input type="checkbox" id="choice3" name="choice3" value="Comic-Sans">
+        <label for="choice3">Comic-Sans</label><br>
+        <input type="checkbox" id="choice4" name="choice4" value="Calibri">
+        <label for="choice4">Calibri</label><br>
+        <input type="checkbox" id="choice5" name="choice5" value="Courier">
+        <label for="choice5">Courier</label><br>
+        <input type="checkbox" id="choice6" name="choice6" value="Lucida">
+        <label for="choice6">Lucida</label><br>
+        <input type = "button" value = "Submit Items" onclick="fontFavorite()">
+    </p>
+
+    <h3>Random Quote 1:</h3>
+    <h5 id="quote1">“You understand reality while everyone else is running around confused and angry and upset because they think reality is something happening to them rather than something they are making every moment with every thought.” </h5>
+    <h3>Random Quote 2:</h3>
+    <h5 id="quote2">"You came too far. Your choice has run out."</h5>
+    <h3>Random Quote 3:</h3>
+    <h5 id="quote3">“HS is supposedly a story that is also a game. In games, the characters die all the time. How many times did you let Mario fall in the pit before he saved the princess? Who weeps for these Marios. In games your characters die, but you keep trying and trying and rebooting and resetting until finally they make it. When you play a game this process is all very impersonal. Once you finally win, when all is said and done those deaths didn’t “count”, only the linear path of the final victorious version of the character is considered “real”. Mario never actually died, did he? Except the omniscient player knows better. HS seems to combine all the meaningless deaths of a trial-and-error game journey with the way death is treated dramatically in other media, where unlike our oblivious Mario, the characters are aware and afraid of the many deaths they must experience before finally winning the game.”</h5>
+
+    <h2>Please Change the Quote Section, sire</h2>
+    <select id="Color">
+        <option value="PaleGoldenRod">Pale Golden Rod</option>
+        <option value="Gray">Grey</option>
+        <option value="Purple">Purple</option>
+    </select>
+    <select id="Size">
+        <option value="24px">Medium</option>
+        <option value="48px">Large</option>
+        <option value="12px">Standard</option>
+    </select>
+    <select id="Family">
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Calibri">Calibri</option>
+        <option value="Sans-Serif">Sans-Serif</option>
+    </select>
+    <input type="button" value="SUBMIT" onclick="changeParagraph()">
+
+</body>

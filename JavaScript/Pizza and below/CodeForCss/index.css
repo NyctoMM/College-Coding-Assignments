@@ -1,0 +1,51 @@
+/*
+Using the index.html page, write a css designation for all classes. 
+This should include different font-family. Font-size, color designations.
+ It should also include different background colors.
+*/
+body{
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+h1{
+    color: goldenrod;
+}
+p {
+    text-indent: 15px;
+}
+
+.author{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-indent: 25px;
+    font-size: 1em;
+}
+.chapter{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+.chapter-title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: goldenrod;
+    font-size: 2em;
+}
+.poem{
+    background-color: burlywood;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1em;
+}
+.poem-title{
+    background-color: burlywood;
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.poem-stanza{
+    background-color: burlywood;
+    color: black;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}

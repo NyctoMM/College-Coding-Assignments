@@ -1,0 +1,59 @@
+
+body {
+    /*color:black;
+    background-color: whitesmoke; */
+    color: whitesmoke;
+    background-color: rgb(15, 15, 15);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: '16';
+    text-align: center;
+    padding: 10px;
+}
+/*
+
+*/
+
+.action {
+    color: palegoldenrod;
+    background-color: blue;
+}
+
+#divBody {
+    background-color: palegoldenrod;
+
+}
+#div1 {
+    color: blue;
+    background-color: palegoldenrod;
+    text-align: center;
+    padding: 10px;
+}
+#div2 {
+    color: blue;
+    background-color: palegoldenrod;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#div3{
+    color: rebeccapurple;
+    background-color: palegoldenrod;
+    text-align: center;
+    padding: 10px;
+}
+#divImage{
+    background-color: palegoldenrod;
+    text-align: center;
+    padding: 10px;
+    height: 550px;
+}
+
+#imageID{
+    position: absolute;
+    left: 550px;
+}
+
+
+
+

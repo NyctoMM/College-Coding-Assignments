@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+  <title>Homework2</title>
+  <meta charset="utf-8">
+
+<script>
+   function Name(){
+    let name = document.getElementById("nameBox").value;
+    alert(name);
+}
+   function Heading(){
+    let heading = document.getElementById("heading").value
+    var header1element = document.createElement("H1");
+        var header1textnode= document.createTextNode(heading);
+        header1element.appendChild(header1textnode);
+
+        document.body.appendChild(header1element);
+
+        document.body.appendChild(header1element);
+}
+let numArray = [];
+let x = 0;
+  function NumberLoop(){
+   
+    while (x <= 5){
+        let number = parseInt(window.prompt("Please enter a number:"));
+        if (number == isNaN){
+          alert("Not a number, try again");
+        }
+        else{
+          numArray.push(number);
+        alert(number);
+        }
+       x++;
+    }
+    alert(numArray[5] + " ," + numArray[4] + " ," + numArray[3] + " ,"+ numArray[2] + " ,"+ numArray[1] + " ," + numArray[0] + "");
+   }
+</script>
+
+<h1>Homework Assignment 2</h1>
+
+</head>
+
+<body>
+
+<h3>#1- Name Input</h3>
+Enter your Name:
+<input type="text" id = "nameBox">
+<button type = "button" onclick="Name()">Then Click Me</button>
+
+<br><br>
+<h3>#2- New Heading</h3>
+Set a New Heading:
+<input type="text" id = "heading">
+<button type = "button" onclick="Heading()"> Set New Heading </button>
+
+<br><br>
+<h3>#3- Number Loop</h3>
+<button type = "button" onclick="NumberLoop()">Click here to Enter Numbers </button>
+
+
+
+
+</body>
+</html>

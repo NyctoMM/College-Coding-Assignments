@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Basic JavaScript Assignment</title>
+    <script>
+        function names() {
+            var FirstName = window.prompt("What is your first name?");
+            var LastName = window.prompt("What is your last name?");
+            var MiddleName = window.prompt("What is your middle name?");
+            alert(LastName + " " + FirstName + " " + MiddleName);
+            document.write(LastName + " " + FirstName + " " + MiddleName);
+        }
+        function numbers() {
+            var num1 = parseInt(window.prompt("Please give a number"));
+            var num2 = parseInt(window.prompt("Please give another number"));
+            var num3 = num1 + num2;
+            alert(num3);
+            document.write(num3);
+        }
+        function welcome() {
+            var welcomeText = "Wecome to my JavaScript Class.";
+        }
+    </script>
+</head>
+<body>
+        <!--<script>
+            var LastName = window.prompt("What is your last name?");
+            var FirstName = window.prompt("What is your first name?");
+            var MiddleName = window.prompt("What is your middle name?");
+            alert(FirstName);
+            alert(MiddleName);
+            alert(LastName);
+        </script>-->
+    <script>
+        names();
+    </script>
+    <p>Ready Script 2</p>
+    <script>
+        numbers();
+    </script>
+</body>

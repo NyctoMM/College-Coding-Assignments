@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/teamDolphins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Miami Dolphins"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/nflBoxScoresWeek3"
+        app:layout_constraintTop_toBottomOf="@+id/teamBroncos" />
+
+    <TextView
+        android:id="@+id/teamDolphinsScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/teamDolphins"
+        app:layout_constraintEnd_toEndOf="@+id/nflBoxScoresWeek3" />
+
+    <TextView
+        android:id="@+id/teamRaiders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="Las Vegas Raiders"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/nflBoxScoresWeek3"
+        app:layout_constraintTop_toBottomOf="@+id/teamDolphins" />
+
+    <TextView
+        android:id="@+id/teamRaidersScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="34"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/teamRaiders"
+        app:layout_constraintEnd_toEndOf="@+id/nflBoxScoresWeek3" />
+
+    <TextView
+        android:id="@+id/teamBuccaneers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Tampa Bay Buccaneers"
+        app:layout_constraintStart_toStartOf="@+id/nflBoxScoresWeek3"
+        app:layout_constraintTop_toBottomOf="@+id/teamBengals" />
+
+    <TextView
+        android:id="@+id/teamRamsScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="34"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/teamSeahawks"
+        app:layout_constraintEnd_toEndOf="@+id/nflBoxScoresWeek3" />
+
+    <TextView
+        android:id="@+id/teamBuccaneersScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24"
+        app:layout_constraintBaseline_toBaselineOf="@+id/teamBuccaneers"
+        app:layout_constraintEnd_toEndOf="@+id/nflBoxScoresWeek3" />
+
+    <TextView
+        android:id="@+id/teamRams"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="Los Angeles Rams"
+        app:layout_constraintStart_toStartOf="@+id/nflBoxScoresWeek3"
+        app:layout_constraintTop_toBottomOf="@+id/teamBuccaneers" />
+
+    <TextView
+        android:id="@+id/teamBroncos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="Denver Broncos"
+        app:layout_constraintStart_toStartOf="@+id/nflBoxScoresWeek3"
+        app:layout_constraintTop_toBottomOf="@+id/teamJets" />
+
+    <TextView
+        android:id="@+id/teamBroncosScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="26"
+        app:layout_constraintBaseline_toBaselineOf="@+id/teamBroncos"
+        app:layout_constraintEnd_toEndOf="@+id/nflBoxScoresWeek3" />
+
+    <TextView
+        android:id="@+id/teamJets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="New York Jets"
+        app:layout_constraintStart_toStartOf="@+id/nflBoxScoresWeek3"
+        app:layout_constraintTop_toBottomOf="@+id/teamVikings" />
+
+    <TextView
+        android:id="@+id/teamJetsScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintBaseline_toBaselineOf="@+id/teamJets"
+        app:layout_constraintEnd_toEndOf="@+id/nflBoxScoresWeek3" />
+
+    <TextView
+        android:id="@+id/teamSeahawks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Seattle Seahawks"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/nflBoxScoresWeek3"
+        app:layout_constraintTop_toBottomOf="@+id/teamRams" />
+
+    <TextView
+        android:id="@+id/teamVikingsScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/teamVikings"
+        app:layout_constraintEnd_toEndOf="@+id/nflBoxScoresWeek3" />
+
+    <TextView
+        android:id="@+id/teamVikings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="Minnesota Vikings"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/nflBoxScoresWeek3"
+        app:layout_constraintTop_toBottomOf="@+id/teamSeahawks" />
+
+    <TextView
+        android:id="@+id/teamSeahawksScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17"
+        app:layout_constraintBaseline_toBaselineOf="@+id/teamRams"
+        app:layout_constraintEnd_toEndOf="@+id/nflBoxScoresWeek3" />
+
+    <TextView
+        android:id="@+id/teamBengalsScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/teamBengals"
+        app:layout_constraintEnd_toEndOf="@+id/nflBoxScoresWeek3" />
+
+    <TextView
+        android:id="@+id/teamBengals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="Cincinnati Bengals"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/nflBoxScoresWeek3"
+        app:layout_constraintTop_toBottomOf="@+id/teamSteelers" />
+
+    <TextView
+        android:id="@+id/teamSteelers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:text="Pittsburgh Steelers"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/nflBoxScoresWeek3"
+        app:layout_constraintTop_toBottomOf="@+id/nflBoxScoresWeek3" />
+
+    <TextView
+        android:id="@+id/nflBoxScoresWeek3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
+        android:text="NFL Box Scores - Week 3"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teamSteelersScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/teamSteelers"
+        app:layout_constraintEnd_toEndOf="@+id/nflBoxScoresWeek3" />
+
+    <androidx.constraintlayout.helper.widget.Layer
+        android:id="@+id/layer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="121dp"
+        app:constraint_referenced_ids="nflBoxScoresWeek3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

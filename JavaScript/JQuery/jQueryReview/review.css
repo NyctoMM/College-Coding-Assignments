@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: palegoldenrod;
+    font-size: large;
+    text-align: center;
+}
+
+div{
+    background-color: dimgrey;
+}
+
+.class1{
+    color:pink;
+}

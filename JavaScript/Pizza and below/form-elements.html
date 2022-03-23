@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>Form Elements</title>
+    
+    <meta charset="utf-8">
+
+    <script src="form-elements.js"></script>
+
+</head>
+
+<body>
+
+
+    <form>
+        <label for="text">Please enter text:</label><br>
+        <input type="text" id="text1" name="inputText" Placheholder="Keep it under 20 characters"><br>
+        <label for="text2">Please enter more text:</label><br>
+        <input type="text" id="text2" name="inputMoreText" Placheholder="Please keep this OVER 20 characters"><br>
+        <input type="button" onclick="(textInput())" value="Confirm This!">
+    </form>
+    <br>
+    <br>
+    <br>
+    <form>
+        <input type="Radio" id="radio1" name="Radio" value="1" checked>
+        <label for="1">O N E</label><br>
+        <input type="Radio" id="radio2" name="Radio" value="2">
+        <label for="2">T W O</label><br>
+        <input type="Radio" id="radio3" name="Radio" value="3">
+        <label for="3">T H R E E</label><br>
+        <input type="button" onclick="(radioInput())" value="Confirm Me!"> 
+    </form>
+    <form>
+        <input type="Checkbox" id="checkbox1" name="Check1" value="1" checked>
+        <label for="1">O N E</label><br>
+        <input type="Checkbox" id="checkbox2" name="Check2" value="2">
+        <label for="2">T W O</label><br>
+        <input type="Checkbox" id="checkbox3" name="Check3" value="3">
+        <label for="3">T H R E E</label><br>
+        <input type="button" onclick="(checkboxInput())" value="Confirm Me!"> 
+    </form>
+    <br>
+    <br>
+    <br>
+    <form>
+        <select id="Cards">
+            <option value="Bicycle">Bicycle</option>
+            <option value="Halo">Halo</option>
+            <option value="Illustionist">Illustionist</option>
+            <option value="Stinger">Stinger</option>
+            </select>
+        <input type="button" onclick="(listInput())" value="Confirm Me!">
+    </form>
+
+</body>
